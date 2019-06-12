@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - miaoliang
+  - ObjectPool
+  - MainScript
+  - CustomerView
+  - EmployeeView
+  - MainMenuView
+  - LoginView
+  - CatGroupMenuView
+  - CenterPos
+  - GoAwayPos
+  - StartPos
+  - EndPos
+  - SpawnPoint
+  - BuidlingBlueprint
+  - BuildingChangeCtrl
+  - AssistantView
+  - BattleView
+  - BattleInfoView
+  - LandedEstateMenuView
+  - SelectBuilding3DUI
+  - UICamera
+  - ShopMenuBuyField
+  - ShopMenuView
+  - ShopView
+  - ShowMenuView
+  - target
+  - CatGroupView
+  - CatInGroup
+  - EmptyGroupField
+  - CatGroupCatBg
+  - DismissField
+  - _TagCanvas
+  - _TagUICamera
+  - SpawnRandomCatView
+  - ClerkAreaView
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Cats
+  - EmployeeCat
+  - BuildingBlueprint
+  - LandedEstateLayer
+  - ShopMenuLayer
+  - ClerkArea
+  - CatInGroupLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

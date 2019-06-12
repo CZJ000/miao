@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60cb45e64965deb4eb22ffa68341ad8a
+timeCreated: 1502113711
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - hudtextPrefab: {fileID: 1253339809496000, guid: 72f504c248df91c4ba1aa44188021c54,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

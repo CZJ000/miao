@@ -1,0 +1,75 @@
+﻿using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+
+/// <summary>
+/// UI控制器的静态单例类；
+/// 控制的UI：
+/// </summary>
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    /// <summary>
+    /// 静态单例；
+    /// </summary>
+    public static #SCRIPTNAME# Instance;
+    /// <summary>
+    /// 是否激活；
+    /// </summary>
+    public bool IsInvoke
+    {
+        get
+        {
+            return transform.localScale != Vector3.zero;
+        }
+        set
+        {
+            transform.localScale = value ? Vector3.one : Vector3.zero;
+        }
+    }
+    /// <summary>
+    /// 是否获得过所有组件；
+    /// </summary>
+    private bool IsGetAllCompoenets = false;
+
+    #region 组件
+
+    RectTransform rectTransform;
+
+    #endregion
+
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    /// <summary>
+    /// 用这个方法初始化	
+    /// </summary>
+    void Start()
+    {
+        GetAllCompoenets();
+    }
+
+    /// <summary>
+    /// Update每帧调用一次
+    /// </summary>
+    void Update()
+    {
+
+    }
+
+    /// <summary>
+    /// 获取所有组件的方法；
+    /// </summary>
+    public void GetAllCompoenets()
+    {
+        if (IsGetAllCompoenets) return;
+        IsGetAllCompoenets = true;
+        //获取组件；
+        rectTransform = GetComponent<RectTransform>();
+
+    }
+
+}

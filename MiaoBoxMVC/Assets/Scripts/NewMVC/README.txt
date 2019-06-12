@@ -1,0 +1,2 @@
+因PureMVC过于繁杂，另起一套简化版MVC，对于每个系统，只需参考Script/NewMVC/Example目录，
+然后把各个模块脚本放入Script/NewMVC各个子文件夹即可，除了UI模块文件需要放UI相关文件夹.

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7878a949fcc966743a7213b01bd5e135
+timeCreated: 1502933905
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - doll: {instanceID: 0}
+  - animFile: {fileID: 4900000, guid: 6897a7a89ed468748a48c72e17eb9669, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

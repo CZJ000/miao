@@ -1,0 +1,60 @@
+﻿{
+  "ConfigInfo": [
+    { "Key": "本配置文件说明" },
+
+    {
+      "Key": "LoginView",
+      "Value": "UIPrefabs\\LoginMenu\\LogonView"
+    },
+    {
+      "Key": "NewRegisterView",
+      "Value": "UIPrefabs\\LoginMenu\\RegisterView"
+    },
+
+    {
+      "Key": "MainMenuView",
+      "Value": "UIPrefabs\\MainMenu\\MainMenuView"
+    },
+
+    {
+      "Key": "EmployeeView",
+      "Value": "UIPrefabs\\EmployeeMenu\\EmployeeView"
+    },
+
+    {
+      "Key": "MessageView",
+      "Value": "UIPrefabs\\Message\\MessageView"
+    },
+
+    {
+      "Key": "LandedEstateMenuView",
+      "Value": "UIPrefabs\\LandedEstateMenu\\LandedEstateMenuView"
+    },
+
+    {
+      "Key": "ShopMenuView",
+      "Value": "UIPrefabs\\ShopMenu\\ShopMenuView"
+    },
+    {
+      "Key": "ShopView",
+      "Value": "UIPrefabs\\ShopMenu\\ShopView"
+    },
+    {
+      "Key": "CatGroupView",
+      "Value": "UIPrefabs\\CatGroupMenu\\CatGroupView"
+    },
+    {
+      "Key": "BattleInfoView",
+      "Value": "UIPrefabs\\BattleView\\BattleInfoView"
+    },
+    {
+      "Key": "BattleResultView",
+      "Value": "UIPrefabs\\BattleView\\BattleResultView"
+    },
+    {
+      "Key": "BattleView",
+      "Value": "UIPrefabs\\BattleView\\BattleView"
+    }
+
+  ]
+}
